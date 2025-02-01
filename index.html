@@ -3,10 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bertrand Carteron - CV</title>
+    <title>Bertrand Carteron - CV Professionnel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .sidebar {
+            background-color: #f8f8f8;
+            padding: 20px;
+            color: #333;
+            text-align: center;
+        }
+        .content {
+            padding: 20px 30px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 10px 0;
+            letter-spacing: 1px;
+            text-transform: none;
+        }
+        h2 {
+            color: #B22222;
+            border-bottom: 2px solid #B22222;
+            padding-bottom: 5px;
+            margin: 20px 0 10px;
+        }
+        p, li {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 5px 0;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .logo {
+            width: 150px;
+            margin: 10px 0;
+        }
+        .contact-info {
+            margin: 20px 0;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        .contact-info a {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .role {
+            font-weight: bold;
+        }
+        .date {
+            float: right;
+            color: #848484;
+            font-size: 12px;
+        }
+        .location {
+            font-style: italic;
+            font-size: 13px;
+        }
+        .experience {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .positions {
+            margin: 20px 0;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .positions p {
+            margin: 8px 0;
+        }
+        @media print {
+            body {
+                background: white;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                grid-template-columns: 1fr 2fr;
+                width: 100%;
+                max-width: 1000px;
+            }
+            .sidebar {
+                background-color: white;
+                color: black;
+            }
+            .content {
+                padding: 15px 25px;
+            }
+            .experience {
+                background-color: white;
+                box-shadow: none;
+                border: 1px solid #ddd;
+                padding: 12px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Bonjour, je suis Bertrand Carteron</h1>
-    <p>Bienvenue sur mon CV en ligne.</p>
+    <div class="container">
+        <div class="sidebar">
+            <img src="https://media.licdn.com/dms/image/v2/C4D03AQFS8nqO3hU-Fg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1620939724611?e=1743638400&v=beta&t=GQWxNM7FFjz6XSufiaYR9mAO_M4UfQ_pxEhEHN3N8X4" alt="Bertrand Carteron" class="profile-pic">
+            <h1>Bertrand<br>Carteron</h1>
+            <p style="text-align: center;">Expert en évaluation immobilière<br>Président CACEEI & CNEI<br>Concepteur et éditeur de solutions innovantes en data immobilière</p>
+
+            <div class="contact-info">
+                <a href="mailto:bertrand@carteron-expertises.com">📧 bertrand@carteron-expertises.com</a>
+                📞 06 58 23 48 96<br>
+                📍 460, route de Villavit, 74450 Le Grand-Bornand<br>
+                <br>
+                <a href="https://www.linkedin.com/in/carteron" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 30px; height: 30px; vertical-align: middle;" class="linkedin-logo">
+                </a>            
+            </div>
+
+            <div class="positions">
+                <p><strong>Président</strong> - Comité d'Application de la Charte de l'Expertise en Evaluation immobilière</p>
+                <p><strong>Président</strong> - Compagnie Nationale des Experts Immobiliers</p>
+                <p><strong>Expert membre</strong> - CNEI, CEIF, CNEJI</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>Expérience professionnelle</h2>
+
+            <div class="experience">
+                <a href="https://www.carteron-expertises.com/" target="_blank">
+                    <img src="https://www.carteron-expertises.com/images/logo/png/logo_carteron_horizontal.png" alt="Carteron Expertises" class="logo">
+                </a>
+                <p><span class="role">Carteron Expertises</span> <span class="date">Depuis Août 2015</span><br>
+                <span class="location">Annecy & Le Grand-Bornand <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Blason_duch%C3%A9_fr_Savoie.svg/2560px-Blason_duch%C3%A9_fr_Savoie.svg.png" alt="Drapeau de la Savoie" style="width: 15px; height: 15px; vertical-align: middle;"></span><br>
+                <strong>Expert en évaluation immobilière (REV) | Real estate appraiser</strong></p>
+                <ul>
+                    <li>Réalisation de plus de 3 000 expertises depuis 2015.</li>
+                    <li>Valorisation annuelle comprise entre 700 millions et 1 milliard d'euros.</li>
+                    <li>Valorisation immobilières, foncières, commerciales et industrielles.</li>
+                    <li>Valorisation de sociétés et de fonds de commerce.</li>
+                    <li>Spécialiste en évaluation de l’immobilier de montagne et l’immobilier d’exception.</li>
+                    <li>Sécurisation des montages fiscaux et financiers.</li>
+                    <li>Assistance et conseil dans le cadre de baux commerciaux et indemnités d'éviction, ISF/IFI.</li>
+                    <li>Rédaction de rapports en anglais.</li>
+                </ul>
+            </div>
+            
+
+            <div class="experience">
+                <a href="https://www.carteron-solutions.com/" target="_blank">
+                    <img src="https://www.carteron-expertises.com/images/logo/png/carex_horizontal_noir.png" alt="CAREX" class="logo">
+                </a>
+                <p><span class="role">CAREX - Application SaaS pour l'Évaluation Immobilière</span> <span class="date">Depuis 2021</span><br>
+                <strong>Fondateur et concepteur principal</strong></p>
+                <ul>
+                    <li>Conception et développement d'une application SaaS innovante pour les professionnels de l'immobilier.</li>
+                    <li>Intégration de la base DVF enrichie des caractéristiques des bâtiments et diagnostics DPE.</li>
+                    <li>Intégration complète de la Base de Données Nationale des Bâtiments (BDNB), permettant une analyse approfondie des performances environnementales des biens.</li>
+                    <li>Développement d'une interface cartographique interactive utilisant Leaflet et des API nationales.</li>
+                    <li>Gestion de la confidentialité des données avec hébergement sécurisé en France.</li>
+                    <li>Optimisation des études de marché et valorisation de l'expertise des utilisateurs.</li>
+                    <li>Conformité aux normes de valorisation ESG, facilitant l'analyse des critères environnementaux, sociaux et de gouvernance dans les évaluations immobilières.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <a href="https://www.carteron-expertises.com/bonurba.html" target="_blank">
+                    <img src="https://www.carteron-expertises.com/images/logo/png/BonUrba_noir_horizontal.png" alt="BonUrba" class="logo">
+                </a>
+                <p><span class="role">BonUrba - Solution Web de Consultation Urbanistique</span> <span class="date">Depuis 2020</span><br>
+                <strong>Fondateur et développeur full-stack</strong></p>
+                <ul>
+                    <li>Développement d'une application web cartographique simplifiant l'accès aux informations d'urbanisme en France.</li>
+                    <li>Intégration de multiples fonds de carte (IGN, Cadastre, Satellite, OpenStreetMap).</li>
+                    <li>Consultation instantanée des zones PLU/PLUi, données cadastrales et risques naturels.</li>
+                    <li>Utilisation de JavaScript moderne et de la bibliothèque Leaflet pour la cartographie interactive.</li>
+                    <li>Centralisation des informations urbanistiques et des risques naturels environnementaux pour les professionnels de l'immobilier.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <a href="https://www.univ-smb.fr/" target="_blank">
+                    <img src="https://www.univ-smb.fr/wp-content/themes/usmb/assets/img/logo.svg" alt="Université Savoie Mont Blanc" class="logo" style="width: 150px;">
+                </a>
+                <p><span class="role">Chargé d'enseignement vacataire | Formateur consultant</span> <span class="date">2015 - 2024</span><br>
+                <span class="location">Annecy & Annecy-le-Vieux, France</span></p>
+                <ul>
+                    <li>Formation en expertise et évaluation d'un bien immobilier.</li>
+                    <li>Enseignement du droit de l'urbanisme réglementaire et opérationnel.</li>
+                    <li>Chargé d'enseignement en 3ème année de Licence Professionnelle Transactions et Gestion Immobilières (TGI), en partenariat avec l'Université (IAE) Savoie Mont-Blanc.</li>
+                    <li>Membre de jurys de sélection, de soutenance et de Validation des Acquis de l'Expérience (VAE).</li>
+                    <li>Accompagnement des étudiants vers les métiers de négociateur immobilier et gestionnaire de biens immobiliers.</li>
+                    <li>Formateur en urbanisme réglementaire et opérationnel en formation continue.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <p><span class="role">Expert en évaluation immobilière sénior & Responsable Haute-Savoie</span> <span class="date">Mai 2009 - Août 2015</span><br>
+                <strong>Société d'expertises en évaluation immobilière - Frerault Expertises</strong><br>
+                <span class="location">Haute-Savoie & Bassin lémanique, France</span></p>
+                <ul>
+                    <li><strong>Évaluation immobilière :</strong> Valorisation d'actifs immobiliers, fonciers, commerciaux et industriels, y compris de sociétés et de fonds de commerce.</li>
+                    <li><strong>Responsable de cabinet :</strong> Gestion du centre de profits d'Annecy, supervision des process de production, planification stratégique et optimisation des performances financières.</li>
+                    <li><strong>Office Manager :</strong> Gestion d’une équipe de 2 à 3 salariés, suivi de la relation client, gestion des ressources humaines et des opérations quotidiennes du cabinet.</li>
+                    <li><strong>Responsable qualité & chef de projets :</strong> Mise en place de nouvelles méthodologies de travail, standardisation des process, création d’une base de données SIG extranet, et automatisation des trames de rapports d'expertise.</li>
+                    <li><strong>Projets majeurs :</strong> Optimisation des rapports d'expertise, traitement d’un portefeuille immobilier national (54 sites, 240 M€), et développement d'outils de gestion de données géographiques.</li>
+                </ul>
+            </div>           
+
+            <div class="experience">
+                <p><span class="role">Juriste en droit des affaires et droit fiscal</span> <span class="date">Janv. 2009 - Avr. 2009</span><br>
+                <strong>Centre de gestion agricole agrée - AFGA / AS GROUP</strong><br>
+                <span class="location">Vaucluse & Bouches-du-Rhône, France</span></p>
+                <ul>
+                    <li>Gestion d'un portefeuille de 100 sociétés :</li>
+                    <li>Évaluations foncières & valorisations de sociétés et fonds agricoles.</li>
+                    <li>Optimisation fiscale & démembrement de propriété.</li>
+                    <li>Supervision du secrétariat juridique.</li>
+                </ul>
+            </div>          
+
+            <div class="experience">
+                <p><span class="role">Juriste en droit des affaires et droit fiscal</span> <span class="date">Avril 2008 - Décembre 2008</span><br>
+                <strong>Cabinet d'Avocats - Lyon Juriste</strong><br>
+                <span class="location">Lyon, France</span></p>
+                <ul>
+                    <ul>
+                        <li><strong>Au sein du département droit rural :</strong>
+                            <ul>
+                                <li>Évaluations foncières & valorisations de sociétés et fonds agricoles.</li>
+                                <li>Rédaction d'articles juridiques pour l'UNECA (Union nationale des Experts Comptables Agricoles) sur l'actualité fiscale et juridique.</li>
+                            </ul>
+                        </li>
+                    
+                        <li><strong>Au sein du département droit fiscal :</strong>
+                            <ul>
+                                <li>Contentieux en droit fiscal (ISF, IRPP, IS, TVA).</li>
+                                <li>Optimisation fiscale & démembrement de propriété.</li>
+                                <li>Rédaction de consultations juridiques.</li>
+                                <li>Préparation et rédaction de supports de formations professionnelles.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+
+            <h2>Diplômes</h2>
+            <p><strong>Master 2 – droit des affaires</strong> <span class="date">2007 - 2008</span><br>
+            Université de Poitiers</p>
+
+            <p><strong>Master 1 – droit notarial</strong> <span class="date">2006 - 2007</span><br>
+            Université Jean Moulin – Lyon 3</p>
+
+            <p><strong>Licence – droit privé & sciences politiques</strong> <span class="date">2003 - 2006</span><br>
+            Université Jean Moulin – Lyon 3</p>
+
+            <h2>Langues</h2>
+            <ul>
+                <li>Français – langue maternelle (C2)</li>
+                <li>Anglais – compétences professionnelles (B2)</li>
+                <li>Italien – notions scolaires (A2)</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
