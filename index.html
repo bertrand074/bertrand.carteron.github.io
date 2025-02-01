@@ -102,6 +102,32 @@
         .positions p {
             margin: 8px 0;
         }
+        .title-section {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .section-content {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .section-content img {
+            max-width: 80px;
+            margin: 10px 0;
+            object-fit: contain;
+            display: inline-block;
+        }
+        .description-text {
+            margin: 4px 0;
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+            font-weight: 500;
+        }
         @media print {
             body {
                 background: white;
@@ -134,48 +160,123 @@
     <div class="container">
         <div class="sidebar">
             <img src="https://media.licdn.com/dms/image/v2/C4D03AQFS8nqO3hU-Fg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1620939724611?e=1743638400&v=beta&t=GQWxNM7FFjz6XSufiaYR9mAO_M4UfQ_pxEhEHN3N8X4" alt="Bertrand Carteron" class="profile-pic">
-            <h1>Bertrand<br>Carteron</h1>
-            <p style="text-align: center;">Expert en évaluation immobilière<br>Président CACEEI & CNEI<br>Concepteur et éditeur de solutions innovantes en data immobilière</p>
-
+            <h1>Bertrand<br>CARTERON</h1>
+        
+            <p style="text-align: center; line-height: 1.8;">
+                Expert en évaluation immobilière<br>
+                Recognised European Valuer<br>
+                Président du CACEEI & de la CNEI<br>
+                Concepteur de solutions innovantes en data immobilière
+            </p>
+        
             <div class="contact-info">
-                <a href="mailto:bertrand@carteron-expertises.com">📧 bertrand@carteron-expertises.com</a>
+                <a href="mailto:bertrand@carteron-expertises.com">📧 bertrand@carteron-expertises.com</a><br>
                 📞 06 58 23 48 96<br>
-                📍 460, route de Villavit, 74450 Le Grand-Bornand<br>
-                <br>
+                📍 460, route de Villavit, 74450 Le Grand-Bornand
+            </div>
+        
+            <div class="social-links">
                 <a href="https://www.linkedin.com/in/carteron" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 30px; height: 30px; vertical-align: middle;" class="linkedin-logo">
-                </a>            
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" style="width: 30px; height: 30px; vertical-align: middle;">
+                </a>
             </div>
 
-            <div class="positions">
-                <p><strong>Président</strong> - Comité d'Application de la Charte de l'Expertise en Evaluation immobilière</p>
-                <p><strong>Président</strong> - Compagnie Nationale des Experts Immobiliers</p>
-                <p><strong>Expert membre</strong> - CNEI, CEIF, CNEJI</p>
+            <div class="qualification">
+                <p class="title-section">Qualification Professionnelle</p>
+                <div class="section-content">
+                    <a href="https://tegova.org/members/cnei" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/Logo_REV.png" alt="REV">
+                    </a>
+                    <p class="description-text">Recognised European Valuer (REV)</p>
+
+                    <a href="https://tegova.org/members/cnei" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/Logo_TEGOVA.png" alt="TEGoVA">
+                    </a>
+                    <p class="description-text">The European Group of Valuers' Associations (TEGoVA)</p>
+                </div>
             </div>
+
+            <div class="presidency">
+                <p class="title-section">Présidences</p>
+                <div class="section-content">
+                    <a href="https://charteexpertiseimmo.org/le-comité-d-application.html" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/LogoComiteCharte.png" alt="CACEEI">
+                    </a>
+                    <p class="description-text">Comité d'Application de la Charte de l'Expertise en Évaluation Immobilière</p>
+
+                    <a href="https://www.expert-cnei.com" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/CNEI.png" alt="CNEI">
+                    </a>
+                    <p class="description-text">Compagnie Nationale des Experts Immobiliers (CNEI)</p>
+                </div>
+            </div>
+
+            <div class="expert-member">
+                <p class="title-section">Expert Membre</p>
+                <div class="section-content">
+                    <a href="https://www.expert-cnei.com" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/CNEI.png" alt="CNEI">
+                    </a>
+                    <p class="description-text">Compagnie Nationale des Experts Immobiliers</p>
+
+                    <a href="https://www.experts-fnaim.org" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/logo.png" alt="CEIF">
+                    </a>
+                    <p class="description-text">Chambre des Experts Immobiliers de France (CEIF)</p>
+
+                    <a href="https://www.cneji.fr/nous-contacter" target="_blank">
+                        <img src="https://www.carteron-expertises.com/images/logo/Logo_CNEJI.png" alt="CNEJI">
+                    </a>
+                    <p class="description-text">Compagnie Nationale des Experts de Justice Immobiliers (CNEJI)</p>
+                </div>
+            </div>
+        
         </div>
 
         <div class="content">
-            <h2>Expérience professionnelle</h2>
+            <h2>Expérience professionnelle</h2>       
 
             <div class="experience">
                 <a href="https://www.carteron-expertises.com/" target="_blank">
                     <img src="https://www.carteron-expertises.com/images/logo/png/logo_carteron_horizontal.png" alt="Carteron Expertises" class="logo">
                 </a>
-                <p><span class="role">Carteron Expertises</span> <span class="date">Depuis Août 2015</span><br>
-                <span class="location">Annecy & Le Grand-Bornand <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Blason_duch%C3%A9_fr_Savoie.svg/2560px-Blason_duch%C3%A9_fr_Savoie.svg.png" alt="Drapeau de la Savoie" style="width: 15px; height: 15px; vertical-align: middle;"></span><br>
-                <strong>Expert en évaluation immobilière (REV) | Real estate appraiser</strong></p>
+                
+                <div class="header-section">
+                    <p>
+                        <span class="role">Carteron Expertises</span> 
+                        <span class="date">Depuis 2015</span><br>
+                        <span class="location">Annecy & Le Grand-Bornand
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Blason_duch%C3%A9_fr_Savoie.svg/2560px-Blason_duch%C3%A9_fr_Savoie.svg.png" 
+                                 alt="Drapeau de la Savoie" 
+                                 style="width: 15px; height: 15px; vertical-align: middle; margin-left: 8px;">
+                        </span><br>
+                        <strong>Expert en évaluation immobilière (REV) | Real estate appraiser</strong>
+                    </p>
+                </div>
+            
+                <div class="key-metrics" style="background: #f8f8f8; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <div style="text-align: center; flex: 1;">
+                            <div style="font-size: 24px; font-weight: bold; color: #B22222;">+3000</div>
+                            <div style="font-size: 14px;">Expertises réalisées</div>
+                        </div>
+                        <div style="text-align: center; flex: 1;">
+                            <div style="font-size: 24px; font-weight: bold; color: #B22222;">~ 1Md€</div>
+                            <div style="font-size: 14px;">Valorisation annuelle</div>
+                        </div>
+                    </div>
+                </div>
+            
                 <ul>
-                    <li>Réalisation de plus de 3 000 expertises depuis 2015.</li>
-                    <li>Valorisation annuelle comprise entre 700 millions et 1 milliard d'euros.</li>
-                    <li>Valorisation immobilières, foncières, commerciales et industrielles.</li>
-                    <li>Valorisation de sociétés et de fonds de commerce.</li>
-                    <li>Spécialiste en évaluation de l’immobilier de montagne et l’immobilier d’exception.</li>
+                    <li>Évaluations immobilières, foncières, commerciales et industrielles.</li>
+                    <li>Évaluations de sociétés, parts sociales et de fonds de commerce.</li>
+                    <li>Spécialiste en évaluation de l'immobilier de montagne et l'immobilier d'exception.</li>
                     <li>Sécurisation des montages fiscaux et financiers.</li>
                     <li>Assistance et conseil dans le cadre de baux commerciaux et indemnités d'éviction, ISF/IFI.</li>
-                    <li>Rédaction de rapports en anglais.</li>
+                    <li>Assistance et conseil dans le cadre de successions.</li>
+                    <li>Rapports d'expertise bilingues (FR/EN).</li>
                 </ul>
             </div>
-            
 
             <div class="experience">
                 <a href="https://www.carteron-solutions.com/" target="_blank">
@@ -184,13 +285,10 @@
                 <p><span class="role">CAREX - Application SaaS pour l'Évaluation Immobilière</span> <span class="date">Depuis 2021</span><br>
                 <strong>Fondateur et concepteur principal</strong></p>
                 <ul>
-                    <li>Conception et développement d'une application SaaS innovante pour les professionnels de l'immobilier.</li>
-                    <li>Intégration de la base DVF enrichie des caractéristiques des bâtiments et diagnostics DPE.</li>
-                    <li>Intégration complète de la Base de Données Nationale des Bâtiments (BDNB), permettant une analyse approfondie des performances environnementales des biens.</li>
-                    <li>Développement d'une interface cartographique interactive utilisant Leaflet et des API nationales.</li>
-                    <li>Gestion de la confidentialité des données avec hébergement sécurisé en France.</li>
-                    <li>Optimisation des études de marché et valorisation de l'expertise des utilisateurs.</li>
-                    <li>Conformité aux normes de valorisation ESG, facilitant l'analyse des critères environnementaux, sociaux et de gouvernance dans les évaluations immobilières.</li>
+                    <li>Développement d'une solution SaaS innovante combinant intelligence artificielle et données immobilières publiques.</li>
+                    <li>Intégration et enrichissement des bases nationales (DVF, BDNB) pour une analyse précise du marché immobilier.</li>
+                    <li>Interface cartographique interactive permettant une visualisation avancée des données de marché.</li>
+                    <li>Application sécurisée avec hébergement en France, intégrant les critères ESG dans l'analyse immobilière.</li>
                 </ul>
             </div>
 
@@ -201,11 +299,9 @@
                 <p><span class="role">BonUrba - Solution Web de Consultation Urbanistique</span> <span class="date">Depuis 2020</span><br>
                 <strong>Fondateur et développeur full-stack</strong></p>
                 <ul>
-                    <li>Développement d'une application web cartographique simplifiant l'accès aux informations d'urbanisme en France.</li>
-                    <li>Intégration de multiples fonds de carte (IGN, Cadastre, Satellite, OpenStreetMap).</li>
-                    <li>Consultation instantanée des zones PLU/PLUi, données cadastrales et risques naturels.</li>
-                    <li>Utilisation de JavaScript moderne et de la bibliothèque Leaflet pour la cartographie interactive.</li>
-                    <li>Centralisation des informations urbanistiques et des risques naturels environnementaux pour les professionnels de l'immobilier.</li>
+                    <li>Application cartographique web permettant la consultation instantanée des données d'urbanisme (PLU/PLUi, cadastre, risques naturels).</li>
+                    <li>Interface interactive multi-sources (IGN, Cadastre, Satellite) pour une analyse complète du territoire.</li>
+                    <li>Solution innovante centralisant l'ensemble des informations urbanistiques pour les professionnels de l'immobilier.</li>
                 </ul>
             </div>
 
@@ -216,62 +312,47 @@
                 <p><span class="role">Chargé d'enseignement vacataire | Formateur consultant</span> <span class="date">2015 - 2024</span><br>
                 <span class="location">Annecy & Annecy-le-Vieux, France</span></p>
                 <ul>
-                    <li>Formation en expertise et évaluation d'un bien immobilier.</li>
-                    <li>Enseignement du droit de l'urbanisme réglementaire et opérationnel.</li>
-                    <li>Chargé d'enseignement en 3ème année de Licence Professionnelle Transactions et Gestion Immobilières (TGI), en partenariat avec l'Université (IAE) Savoie Mont-Blanc.</li>
-                    <li>Membre de jurys de sélection, de soutenance et de Validation des Acquis de l'Expérience (VAE).</li>
-                    <li>Accompagnement des étudiants vers les métiers de négociateur immobilier et gestionnaire de biens immobiliers.</li>
-                    <li>Formateur en urbanisme réglementaire et opérationnel en formation continue.</li>
+                    <li>Chargé d'enseignement :
+                        <ul>
+                            <li>Expertise et évaluation immobilière.</li>
+                            <li>Droit de l'urbanisme réglementaire et opérationnel.</li>
+                        </ul>
+                    </li>
+                    <li>Formateur auprès des professionnels de l'immobilier.</li>
+                    <li>Membre des jurys universitaires (soutenance, VAE).</li>
+                </ul>
+            </div>
+            
+            <div class="experience">
+                <p><span class="role">Expert en évaluation immobilière senior & Directeur</span> <span class="date">2009 - 2015</span><br>
+                    <strong>Frerault Expertises</strong><br>
+                    <span class="location">Haute-Savoie & Bassin lémanique, France</span></p>
+                <ul>
+                    <li>Valorisation d'actifs immobiliers variés (immobilier, foncier, commercial, industriel, sociétés, fonds de commerce).</li>
+                    <li>Gestion stratégique du centre de profits d'Annecy et optimisation des performances financières.</li>
+                    <li>Management d’équipe, pilotage des opérations et relations clients.</li>
+                    <li>Standardisation des process, création d’une base de données SIG et automatisation des rapports d’expertise.</li>
                 </ul>
             </div>
 
             <div class="experience">
-                <p><span class="role">Expert en évaluation immobilière sénior & Responsable Haute-Savoie</span> <span class="date">Mai 2009 - Août 2015</span><br>
-                <strong>Société d'expertises en évaluation immobilière - Frerault Expertises</strong><br>
-                <span class="location">Haute-Savoie & Bassin lémanique, France</span></p>
-                <ul>
-                    <li><strong>Évaluation immobilière :</strong> Valorisation d'actifs immobiliers, fonciers, commerciaux et industriels, y compris de sociétés et de fonds de commerce.</li>
-                    <li><strong>Responsable de cabinet :</strong> Gestion du centre de profits d'Annecy, supervision des process de production, planification stratégique et optimisation des performances financières.</li>
-                    <li><strong>Office Manager :</strong> Gestion d’une équipe de 2 à 3 salariés, suivi de la relation client, gestion des ressources humaines et des opérations quotidiennes du cabinet.</li>
-                    <li><strong>Responsable qualité & chef de projets :</strong> Mise en place de nouvelles méthodologies de travail, standardisation des process, création d’une base de données SIG extranet, et automatisation des trames de rapports d'expertise.</li>
-                    <li><strong>Projets majeurs :</strong> Optimisation des rapports d'expertise, traitement d’un portefeuille immobilier national (54 sites, 240 M€), et développement d'outils de gestion de données géographiques.</li>
-                </ul>
-            </div>           
-
-            <div class="experience">
-                <p><span class="role">Juriste en droit des affaires et droit fiscal</span> <span class="date">Janv. 2009 - Avr. 2009</span><br>
+                <p><span class="role">Juriste en droit des affaires et droit fiscal</span> <span class="date">2009</span><br>
                 <strong>Centre de gestion agricole agrée - AFGA / AS GROUP</strong><br>
                 <span class="location">Vaucluse & Bouches-du-Rhône, France</span></p>
                 <ul>
-                    <li>Gestion d'un portefeuille de 100 sociétés :</li>
+                    <li>Gestion d'un portefeuille de 100 sociétés et fonds agricoles :</li>
                     <li>Évaluations foncières & valorisations de sociétés et fonds agricoles.</li>
                     <li>Optimisation fiscale & démembrement de propriété.</li>
-                    <li>Supervision du secrétariat juridique.</li>
                 </ul>
             </div>          
 
             <div class="experience">
-                <p><span class="role">Juriste en droit des affaires et droit fiscal</span> <span class="date">Avril 2008 - Décembre 2008</span><br>
+                <p><span class="role">Juriste en droit des affaires et droit fiscal</span> <span class="date">2008</span><br>
                 <strong>Cabinet d'Avocats - Lyon Juriste</strong><br>
                 <span class="location">Lyon, France</span></p>
                 <ul>
-                    <ul>
-                        <li><strong>Au sein du département droit rural :</strong>
-                            <ul>
-                                <li>Évaluations foncières & valorisations de sociétés et fonds agricoles.</li>
-                                <li>Rédaction d'articles juridiques pour l'UNECA (Union nationale des Experts Comptables Agricoles) sur l'actualité fiscale et juridique.</li>
-                            </ul>
-                        </li>
-                    
-                        <li><strong>Au sein du département droit fiscal :</strong>
-                            <ul>
-                                <li>Contentieux en droit fiscal (ISF, IRPP, IS, TVA).</li>
-                                <li>Optimisation fiscale & démembrement de propriété.</li>
-                                <li>Rédaction de consultations juridiques.</li>
-                                <li>Préparation et rédaction de supports de formations professionnelles.</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <li>Évaluations foncières et valorisation de sociétés et fonds agricoles.</li>
+                    <li>Optimisation fiscale, démembrement de propriété et contentieux fiscal (ISF, IRPP, IS, TVA).</li>
                 </ul>
             </div>
 
