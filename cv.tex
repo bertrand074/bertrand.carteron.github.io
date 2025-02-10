@@ -1,0 +1,171 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Configuration du style
+\moderncvstyle{classic}
+\moderncvcolor{burgundy}  % Définit la couleur principale
+
+% Encodage et langue
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+% Mise en page et icônes
+\usepackage[scale=0.85]{geometry}
+\usepackage{fontawesome5}
+
+% Gestion des couleurs et hyperliens
+\usepackage{xcolor}
+\definecolor{burgundy}{HTML}{B22222}  % Rouge pour les titres et les puces
+
+\usepackage{hyperref} % Important : charger après xcolor
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% Réduction de la taille du nom et des titres dans l'en-tête
+\renewcommand*{\namefont}{\LARGE\bfseries}  % Taille réduite pour le nom
+\renewcommand*{\titlefont}{\large\bfseries}  % Taille réduite pour le titre
+
+% Personnalisation des sections (avec le tiret rouge)
+\renewcommand{\section}[1]{%
+    \vspace{2mm}%
+    {\color{burgundy}\rule{10mm}{2mm} \textbf{\large #1}}%
+    \vspace{2mm}%
+}
+
+% Informations personnelles
+\name{Bertrand}{CARTERON}
+\title{Expert en évaluation immobilière\\ 
+Recognised European Valuer - REV\\
+Président du CACEEI \& de la CNEI\\
+Concepteur de solutions innovantes en data immobilière}
+\phone{06 58 23 48 96}
+\email{bertrand@carteron-expertises.com}
+\address{460 route de Villavit}{74450 Le Grand-Bornand}
+
+\begin{document}
+
+\makecvtitle
+
+% Qualifications
+\section{Qualifications Professionnelles}
+\subsection*{} % Sous-section vide sans numérotation
+\vspace{-8mm} % Ajustement pour supprimer l'espace inutile
+\cvitem{REV}{Recognised European Valuer - TEGoVA}
+\cvitem{Présidences}{%
+    \begin{minipage}[t]{\linewidth}
+        Comité d'Application de la Charte de l'Expertise en Évaluation Immobilière (CACEEI)\\
+        Compagnie Nationale des Experts Immobiliers (CNEI)
+    \end{minipage}%
+}
+\cvitem{Membre}{CNEI, CEIF, CNEJI}
+
+% Expérience
+\vspace{4mm} % Ajout d'espace avant la section
+\section{Expérience Professionnelle}
+
+\vspace{2mm} % Ajout d'espace avant la première sous-section
+\subsection*{\textbf{\textcolor{burgundy}{Expert en évaluation immobilière}}}
+
+\cventry{Depuis 2015}{Expert en évaluation immobilière (REV)}{Carteron Expertises}{}{}{%
+\begin{itemize}
+    \item[•] Plus de 3000 expertises réalisées / Valorisation annuelle \textasciitilde{} 1 Mds €
+    \item[•] Évaluations immobilières, foncières, commerciales et industrielles
+    \item[•] Évaluations de sociétés, parts sociales et fonds de commerce
+    \item[•] Expert reconnu en immobilier de montagne et biens d’exception
+    \item[•] Rapports d'expertise bilingues (FR/EN)
+\end{itemize}}
+
+\cventry{Depuis 2021}{Fondateur et concepteur principal}{\href{https://www.carex.immo}{www.carex.immo}}{}{}{%
+\begin{itemize}
+    \item[•] Développement d'une solution SaaS pour l'évaluation immobilière
+    \item[•] Intégration des bases nationales (DVF, BDNB)
+    \item[•] Interface cartographique interactive
+\end{itemize}}
+
+\cventry{Depuis 2020}{Fondateur et développeur full-stack}{\href{https://www.bonurba.immo}{www.bonurba.immo}}{}{}{%
+\begin{itemize}
+    \item[•] Application web de consultation urbanistique
+    \item[•] Interface interactive multi-sources
+    \item[•] Solution de centralisation des informations urbanistiques
+\end{itemize}}
+
+\cventry{2009-2015}{Expert en évaluation immobilière senior \& Directeur}{Frerault Expertises}{}{}{%
+\begin{itemize}
+    \item[•] Valorisation d'actifs immobiliers variés
+    \item[•] Gestion stratégique du centre de profits d'Annecy
+    \item[•] Management d'équipe et pilotage des opérations
+\end{itemize}}
+
+\vspace{2mm} % Ajout d'espace avant la première sous-section
+\subsection*{\textbf{\textcolor{burgundy}{Enseignement \& Formation continue}}}
+\cventry{Depuis 2018}{Formateur consultant}{Centre de formation à l'Expertise Immobilière - CFEI}{}{}{%
+\begin{itemize}
+\item[•] Expertise et évaluation immobilière
+\item[•] Droit de l'urbanisme réglementaire et opérationnel
+\item[•] Formation des professionnels de l'immobilier
+\end{itemize}}
+\cventry{2015-2024}{Chargé d'enseignement vacataire}{Université Savoie Mont Blanc}{}{}{%
+\begin{itemize}
+\item[•] Expertise et évaluation immobilière
+\item[•] Droit de l'urbanisme réglementaire et opérationnel
+\item[•] Formation des professionnels de l'immobilier
+\end{itemize}}
+
+\vspace{2mm} % Ajout d'espace avant la première sous-section
+\subsection*{\textbf{\textcolor{burgundy}{Expériences précédentes}}}
+\cventry{2009}{Juriste en droit des affaires et droit fiscal}{AFGA / AS GROUP}{Vaucluse \& Bouches-du-Rhône}{}{}
+\cventry{2008}{Juriste en droit des affaires et droit fiscal}{Cabinet d'Avocats - Lyon Juriste}{Lyon}{}{}
+
+\newpage % Force un saut de page
+
+% Compétences
+\vspace{4mm} % Ajout d'espace avant la section
+\section{Compétences}
+
+\vspace{2mm} % Ajout d'espace avant la première sous-section
+\cventry{}{Expert en évaluation immobilière}{}{}{}{%
+\begin{itemize}
+    \item[•] Expertises en valeur vénale, locative, foncière, fonds de commerce et indemnités d'éviction
+    \item[•] Évaluations bancaires (octroi, financement, contentieux), IFI, successions, donations
+    \item[•] Expert reconnu en immobilier de montagne, biens d’exception et actifs atypiques
+\end{itemize}}
+
+\vspace{2mm} % Ajout d'espace avant la première sous-section
+\cventry{}{Développement et innovation}{}{}{}{%
+\begin{itemize}
+    \item[•] Développement full-stack (JavaScript, Python, SQL, MongoDB)
+    \item[•] Analyse de bases immobilières (DVF, BDNB), modélisation de prix
+    \item[•] Développement d'outils SIG pour la cartographie immobilière
+    \item[•] Conception d'APIs et solutions SaaS dédiées à l’évaluation
+\end{itemize}}
+
+\vspace{2mm} % Ajout d'espace avant la première sous-section
+\cventry{}{Gestion et encadrement}{}{}{}{%
+\begin{itemize}
+    \item[•] Direction d’entreprise, gestion de projets, management d’équipe
+    \item[•] Conception et animation de formations en évaluation immobilière
+    \item[•] Rédaction de rapports d’expertise bilingues (FR/EN), conférences et interventions publiques
+\end{itemize}}
+
+% Formation
+\vspace{4mm} % Ajout d'espace avant la section
+\section{Formation}
+\subsection*{} % Sous-section vide sans numérotation
+\vspace{-8mm} % Ajustement pour supprimer l'espace inutile
+\cventry{2007-2008}{Master 2}{Université de Poitiers}{}{}{Droit, gestion et commerce des spiritueux}
+\cventry{2006-2007}{Master 1}{Université Jean Moulin - Lyon 3}{}{}{Droit notarial}
+\cventry{2003-2006}{Licence}{Université Jean Moulin - Lyon 3}{}{}{Droit privé \& sciences politiques}
+
+% Langues
+\vspace{4mm} % Ajout d'espace avant la section
+\section{Langues}
+\subsection*{} % Sous-section vide sans numérotation
+\vspace{-8mm} % Ajustement pour supprimer l'espace inutile
+\cvitemwithcomment{Français}{Langue maternelle}{C2}
+\cvitemwithcomment{Anglais}{Compétences professionnelles}{B2}
+\cvitemwithcomment{Italien}{Notions scolaires}{A2}
+
+\end{document}
